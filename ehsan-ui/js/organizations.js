@@ -1,0 +1,2 @@
+document.querySelectorAll(".circle-progress").forEach((function(e){var t=e.querySelector(".bar"),r=e.querySelector(".progress-value"),n=parseInt(r.textContent,10),o=0,a=n,l=null;requestAnimationFrame((function e(n){l||(l=n);var u=Math.min((n-l)/3e3,1),c=Math.floor(o+(a-o)*u),s=45+1.8*c;t.style.transform="rotate("+s+"deg)",r.textContent=c,u<1&&requestAnimationFrame(e)}))}));
+//# sourceMappingURL=organizations.js.map
